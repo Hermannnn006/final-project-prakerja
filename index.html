@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./dist/output.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,800;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-color-primary text-color-white tracking-wider">
+    <header class="sticky top-0 z-50">
+        <nav class="container flex justify-between items-center">
+            <div class="py-5 text-color-secondary font-bold text-3xl">
+                <a href="#home">
+                    <span class="text-color-white">Herman</span>syah
+                </a>
+            </div>
+            <div>
+                <ul class="hidden lg:flex items-center space-x-6">
+                    <li><a href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
+                    <li><a href="#about" class="hover:text-color-secondary ease-in duration-200">About</a></li>
+                    <li><a href="#experiences" class="hover:text-color-secondary ease-in duration-200">Experiences</a></li>
+                    <li><a href="#education" class="hover:text-color-secondary ease-in duration-200">Education</a></li>
+                    <li><a href="#skills" class="hover:text-color-secondary ease-in duration-200">Skills</a></li>
+                    <li><a href="#interests" class="hover:text-color-secondary ease-in duration-200">interests</a></li>
+                    <li><a href="#award" class="hover:text-color-secondary ease-in duration-200">Award</a></li>
+                </ul>
+            </div>
+            <div id="hamburger" class="lg:hidden cursor-pointer z-50">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div id="menu" class="hidden bg-color-primary-dark h-[100vh] absolute inset-0">
+                <ul class="h-full grid place-items-center py-20">
+                    <li><a id="hLink" href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
+                    <li><a id="hLink" href="#features" class="hover:text-color-secondary ease-in duration-200">Features</a></li>
+                    <li><a id="hLink" href="#testimonial" class="hover:text-color-secondary ease-in duration-200">Testimonial</a></li>
+                    <li><a id="hLink" href="#pricing" class="hover:text-color-secondary ease-in duration-200">Pricing</a></li>
+                    <li><a id="hLink" href="#blog" class="hover:text-color-secondary ease-in duration-200">Blog</a></li>
+                    <li><a id="hLink" href="#contact" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
+
+                    <li><button class="btn">free trial</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="relative">
+            <div class="blob1"></div>
+            <div class="blob2"></div>
+            <div class="container py-20">
+                <div class="flex flex-col items-center z-20 md:flex-row">
+                    <div class="text-center mb-12 md:text-left md:w-full md:pr-10">
+                        <h1 class="title mb-4">Hermansyah</h1>
+                        <div class="w-max"><h1 class="text-color-secondary animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-3xl font-bold">Full Stack Web Develover!</h1></div>
+                        <p class="leading-relaxed mb-10">Perkenalkan nama saya hermansyah, lulusan informatika universitas potensi utama, berasal dari medan, seorang yang suka belajar hal-hal yang tekait dengan programming dan cyber security.</p>
+                        <button class="btn">Download CV</button>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="./dist/img/profil.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="bg-color-primary-light py-20">
+            <div class="container py-20 relative">   
+                <div class="flex flex-col items-center justify-between md:flex-row">
+                    <div class="hidden mb-12 md:flex md:left-40 md:w-[300px] md:ml-20">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Emoji_u1f44b.svg/2048px-Emoji_u1f44b.svg.png" alt="" class="animate-wiggle">
+                    </div>
+                    <div class="text-center md:text-left md:w-1/2 md:ml-20">
+                        <h4 class="font-bold text-color-secondary mb-4">About Me</h4>
+                        <h1 class="title mb-4">Hi ✌, Teman-Teman</h1>
+                        <p class="leading-relaxed mb-10">Perkenalkan nama saya hermansyah, lulusan informatika universitas potensi utama, berasal dari medan, seorang yang suka belajar hal-hal yang tekait dengan programming dan cyber security.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experiences">
+            <div class="container py-20 pb-44 relative">
+                <div class="blob1"></div>
+                <div class="blob2"></div>
+                    <div class="text-center">
+                        <h4 class="font-bold text-color-secondary mb-4 py-20">Experiences</h4>
+                        <ol class="items-center sm:flex lg:justify-center">
+                            <li class="relative mb-6 sm:mb-0">
+                                <div class="flex items-center">
+                                    <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white sm:ring-8 dark:ring-gray-900 shrink-0">
+                                        <svg aria-hidden="true" class="w-3 h-3 text-blue-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                                    </div>
+                                    <div class="sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+                                </div>
+                                <div class="mt-3 sm:pr-8">
+                                    <h3 class="text-lg font-semibold text-white">Sistem Informasi Donor Darah CI 4</h3>
+                                    <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2023</time>
+                                    <p class="text-base font-normal text-gray-300">inplementasi algoritma fifo pada pengelolaan stock darah</p>
+                                    <p class="text-base font-normal text-gray-300">penjadwalan donor darah</p>
+                                </div>
+                            </li>
+                            <li class="relative mb-6 sm:mb-0">
+                                <div class="flex items-center">
+                                    <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white sm:ring-8 dark:ring-gray-900 shrink-0">
+                                        <svg aria-hidden="true" class="w-3 h-3 text-blue-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                                    </div>
+                                    <div class="sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+                                </div>
+                                <div class="mt-3 sm:pr-8">
+                                    <h3 class="text-lg font-semibold text-white">Media Pembelajaran SQL Injection Berbasis Android</h3>
+                                    <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2022</time>
+                                    <p class="text-base font-normal text-gray-300">materi pembelajaran dalam bentuk video dan juga teks</p>
+                                    <p class="text-base font-normal text-gray-300">soal latihan dan ujian dalam bentuk praktek</p>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="education" class="bg-color-primary-light">
+            <div class="container py-20 relative">   
+                <div class="flex flex-col items-center justify-between md:flex-row">
+                    <div class="text-center md:text-left md:w-1/2 md:ml-20">
+                        <h4 class="font-bold text-color-secondary mt-20 mb-4">Education</h4>           
+                        <ol class="relative border-l border-gray-200">                  
+                            <li class="mb-10 ml-4">
+                                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                                <time class="mb-1 text-sm font-normal leading-none text-gray-400">2015 - 1018</time>
+                                <h3 class="text-lg font-semibold text-white">SMK Tritech</h3>
+                                <p class="mb-4 text-base font-normal text-gray-400">jurusan teknik komputer jaringan, selama sekolah di smk tritech saya belajar mengenai jaringan komputer, pemrograman web dan juga penggunaan microsoft office.</p>
+                            </li>
+                            <li class="mb-10 ml-4">
+                                <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+                                <time class="mb-1 text-sm font-normal leading-none text-gray-400">2018 - 2022</time>
+                                <h3 class="text-lg font-semibold text-white">Universitas Potensi Utama</h3>
+                                <p class="text-base font-normal text-gray-400">jurusan infromatika, selama kuliah di universitas potensi utama saya belajar mengenai pemrograman web, android dan keamanan jaringan komputer.</p>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="hidden mb-12 mt-20 md:flex md:right-40 md:w-[300px] md:mr-20 pt-10">
+                        <img src="./dist/img/topi-toga.png" alt="" class="animate-bounce">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="container py-20 relative">
+                <div class="blob1"></div>
+                <div class="blob2"></div>
+                <div class="text-center">
+                    <h4 class="font-bold text-color-secondary mb-4 lg:py-20">Skills</h4>
+                    <h1 class="title mb-4">My Skills</h1>
+                </div>
+                <div class="flex flex-wrap justify-center">
+                <div class="max-w-sm rounded overflow-hidden transform transition duration-500 hover:scale-110">
+                    <img class="w-[150px] mx-auto" src="./dist/img/web.svg" alt="pemrograman web">
+                    <div class="px-6 py-4">
+                      <div class="font-bold text-xl mb-2 text-center">Pemrograman Web</div>
+                    </div>
+                  </div>
+                <div class="max-w-sm rounded overflow-hidden transform transition duration-500 hover:scale-110">
+                    <img class="w-[150px] mx-auto" src="./dist/img/security.svg" alt="pemrograman web">
+                    <div class="px-6 py-4">
+                      <div class="font-bold text-xl mb-2 text-center">Cyber Security</div>
+                    </div>
+                  </div>
+                  <div class="max-w-sm rounded overflow-hidden transform transition duration-500 hover:scale-110">
+                    <img class="w-[150px] mx-auto" src="./dist/img/android.svg" alt="pemrograman web">
+                    <div class="px-6 py-4">
+                      <div class="font-bold text-xl mb-2 text-center">Pemrograman Android</div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <section id="interests" class="bg-color-primary-light">
+            <div class="container py-20">
+                <div class="text-center">
+                    <h4 class="font-bold text-color-secondary mb-4 lg:pt-20">Interests</h4>
+                    <h1 class="title mb-4">Tertarik Pada Bidang</h1>
+                </div>
+                <div class="flex flex-wrap justify-center">
+                <div class="max-w-sm rounded overflow-hidden transform transition duration-500 hover:scale-110">
+                    <img class="w-[150px] mx-auto" src="./dist/img/web.svg" alt="pemrograman web">
+                    <div class="px-6 py-4">
+                      <div class="font-bold text-xl mb-2 text-center">Programming</div>
+                    </div>
+                  </div>
+                <div class="max-w-sm rounded overflow-hidden transform transition duration-500 hover:scale-110">
+                    <img class="w-[150px] mx-auto" src="./dist/img/security.svg" alt="pemrograman web">
+                    <div class="px-6 py-4">
+                      <div class="font-bold text-xl mb-2 text-center">Cyber Security</div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <section id="award">
+            <div class="container py-20 relative">
+                <div class="blob1"></div>
+                <div class="blob2"></div>
+                <div class="text-center">
+                    <h4 class="font-bold text-color-secondary mb-4 pt-20">Award</h4>
+                    <h1 class="title mb-4">My Awards</h1>
+                </div>
+                <div class="flex flex-wrap justify-center gap-8">
+                    <div>
+                        <img class="w-[300px] h-[170px] border-2 border-teal-300 hover:scale-110 ease-in-out duration-500" src="./dist/img/award.jpg" alt="award">
+                    </div>
+                    <div>
+                        <img class="w-[300px] h-[170px] border-2 border-teal-300 hover:scale-110 ease-in-out duration-500" src="./dist/img/award1.jpg" alt="award">
+                    </div>
+                    <div>
+                        <img class="w-[300px] h-[170px] border-2 border-teal-300 hover:scale-110 ease-in-out duration-500" src="./dist/img/award2.jpg" alt="award">
+                    </div>
+                    <div>
+                        <img class="w-[300px] h-[170px] border-2 border-teal-300 hover:scale-110 ease-in-out duration-500" src="./dist/img/award3.jpg" alt="award">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-color-primary-light pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-wrap">
+            <div class="w-full pt-10 border-t border-slate-700">
+                <div class="flex items-center justify-center mb-5">
+                    <a href="#" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-color-secondary hover:bg-color-secondary hover:text-white text-slate-500" target="_blank">
+                        <svg class="fill-current" width="20" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="#" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-color-secondary hover:bg-color-secondary hover:text-white text-slate-500" target="_blank">
+                        <svg class="fill-current" width="20" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                    <a href="#" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-color-secondary hover:bg-color-secondary hover:text-white text-slate-500" target="_blank">
+                        <svg class="fill-current" width="20" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                    </a>
+                </div>
+                <p class="font-medium text-xs text-slate-500 text-center">Dibuat dengan <span class="text-red-600">❤</span> oleh Hermansyah</p>
+            </div>
+        </div>
+    </footer>
+    <script src="dist/js/script.js"></script>
+</body>
+</html>
