@@ -1380,11 +1380,6 @@ video {
     justify-content: center;
   }
 
-  .lg\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
   .lg\:pt-20 {
     padding-top: 5rem;
   }
